@@ -1,0 +1,29 @@
+{
+  "name": "hyperclick-marko",
+  "version": "1.0.0",
+  "description": "Hyperclick support for Marko",
+  "main": "./src/hyperclick-marko",
+  "license": "MIT",
+  "repository": "https://github.com/marko-js/atom-hyperclick-marko",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "escape-string-regexp": "^1.0.5",
+    "lasso-package-root": "^1.0.0",
+    "marko": "^3.1.9",
+    "resolve-from": "^2.0.0"
+  },
+  "package-deps": [
+    "language-marko"
+  ]
+}
