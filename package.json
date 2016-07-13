@@ -1,6 +1,6 @@
 {
   "name": "hyperclick-marko",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Hyperclick support for Marko",
   "main": "./src/hyperclick-marko",
   "license": "MIT",
